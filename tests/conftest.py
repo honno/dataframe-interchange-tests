@@ -52,8 +52,6 @@ ci_xfail_ids = [
     "test_from_dataframe.py::test_from_dataframe_roundtrip[pyarrow.Table-polars]",
     # https://github.com/rapidsai/cudf/issues/11389
     "test_column_object.py::test_dtype[cudf]",
-    # https://github.com/modin-project/modin/issues/4687
-    "test_column_object.py::test_null_count[modin]",
     # https://github.com/vaexio/vaex/issues/2121
     "test_column_object.py::test_get_chunks[vaex]",
 ]
